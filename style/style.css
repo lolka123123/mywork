@@ -1,0 +1,61 @@
+@import 'fonts.css';
+
+:root {
+    --primary-background: #ffffff;
+    --secondary-background: #7177F1;
+    --primary-title-color: #7177F1;
+    --secondary-text-color: #7177F1;
+    --secondary-title-color: #ffffff;
+    --primary-text-color: #323232;
+    --primary-font-famaly: 'Montserrat';
+}
+
+.header__link {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .5s;
+}
+
+.header__link:hover {
+    color: var(--primary-text-color);
+}
+
+.header__button {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-title-color);
+    background: var(--secondary-background);
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+    transition: .5s;
+    margin-right: 60px;
+}
+.header__button:hover{
+    background: var(--primary-background);
+    color: var(--secondary-text-color);
+}
+
+.icon-phone-square-alt::before {
+    content: "\f87b";
+    font-style: normal;
+}
+
+.header__phone{
+    color: var(--secondary-text-color);
+    font-size: 25px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.header__phone:hover{
+    color: var(--primary-text-color);
+}
