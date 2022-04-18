@@ -92,3 +92,9 @@
     content: "\f0c9";
     font-style: normal;
 }
+
+.icon-caret-down::before{
+    content: "\f0d7";
+    font-style: normal;
+    font-size: 30px;
+}
