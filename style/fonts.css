@@ -98,3 +98,18 @@
     font-style: normal;
     font-size: 30px;
 }
+
+.icon-bootstrap::before{
+    content: "\f836";
+    font-style: normal;
+    font-size: 30px;
+}
+
+.accordion_angel{
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+.collapsed .accordion_angel{
+    transform: rotate(180deg);
+}
