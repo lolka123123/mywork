@@ -91,6 +91,7 @@
 .icon-bars::before{
     content: "\f0c9";
     font-style: normal;
+    color: var(--primary-text-color);
 }
 
 .icon-caret-down::before{
